@@ -5,7 +5,7 @@
          version="2.5"
          xmlns="http://java.sun.com/xml/ns/javaee">
 
-  <!-- Servlets -->
+  <!-- Servlets 
   <servlet>
     <servlet-name>greetServlet</servlet-name>
     <servlet-class>climate.server.GreetingServiceImpl</servlet-class>
@@ -15,7 +15,7 @@
     <servlet-name>greetServlet</servlet-name>
     <url-pattern>/climatestatistics/greet</url-pattern>
   </servlet-mapping>
-  
+ --> 
   <!-- Default page to serve -->
   <welcome-file-list>
     <welcome-file>ClimateStatistics.html</welcome-file>
