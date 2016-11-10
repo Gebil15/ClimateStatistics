@@ -1,4 +1,4 @@
-package climatestats.client;
+package climate.client;
 
 import java.util.ArrayList;
 import java.util.List;
