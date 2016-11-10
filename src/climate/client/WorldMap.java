@@ -34,8 +34,17 @@ import com.google.gwt.user.client.ui.Widget;
 
 
 public class WorldMap extends VerticalPanel implements Timeline{
+	
+	private int startDate;
+	private int endDate;
+	
 	public void setTimeRange(int startDate, int endDate){
-		
+		this.startDate=startDate;
+		this.endDate=endDate;
+	}
+	
+	public int getTimeRange(){
+		return startDate;
 	}
 	public void refreshMap(){
 		
