@@ -42,3 +42,9 @@ h1 {
    border: 1px solid black;
    padding: 5px;
 }
+
+/* FOOTER */
+footer {
+	color: grey;
+	text-align: center;
+}
